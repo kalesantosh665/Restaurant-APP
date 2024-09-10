@@ -1,0 +1,6 @@
+// Reservation Form Submission
+document.getElementById('reservation-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    document.getElementById('confirmation').classList.remove('hidden');
+    document.getElementById('reservation-form').reset();
+});
